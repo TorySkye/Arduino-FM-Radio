@@ -13,7 +13,7 @@ void setup()
   lcd.clear();
   Serial.begin(9600);
   Wire.begin();
-  lcd.print("Dobrodosli");
+  lcd.print("Welcome");
   delay(2000);
   lcd.clear();
   pinMode(13,OUTPUT);
